@@ -37,7 +37,7 @@ body::before {
     background-position: center;
     background-attachment: fixed;
     filter: blur(3px); /* Adds a blur effect to the background image */
-    opacity: 0.8; /* Adjust this to control dimness (0.4 means 40% visible) */
+    opacity: 0.8; /* Adjust this to control dimness */
     z-index: -1; /* Keeps the background behind everything else */
 }
 /* Add a gradient overlay */
