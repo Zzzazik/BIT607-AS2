@@ -171,7 +171,24 @@ main {
     font-size: 1em;
     text-align: center;
 }
-
+/*private page styling*/
+.roster, .staff-contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.staff-contact ul, .roster ul {
+    list-style-type: none;
+    padding: 0;
+}
+.staff-contact li, .roster li {
+    margin-bottom: 10px;
+}
+.roster h2 {
+    margin-top: 0;
+}
 footer {
     display: flex;
     justify-content: center;
